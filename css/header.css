@@ -1,0 +1,54 @@
+header div.logo-search {
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	justify-content: center;
+	height: 300px;
+	padding: 20px 0;
+	margin-bottom: 20px;
+}
+
+header div.logo-search form input {
+	background-color: white;
+	padding: 10px;
+	border: none;
+	font-weight: 600;
+	border-radius: 10px 0 0 10px;
+	font-size: 1.5rem;
+}
+
+header div.logo-search form input:focus {
+	outline: 2px solid lightgray;
+	outline-offset: none;
+}
+
+header div.logo-search form {
+	align-items: center;
+	justify-content: center;
+	margin-left: 5rem;
+	display: flex;
+}
+
+header div.logo-search form h4 {
+	color: rgb(120, 120, 120);
+	margin-bottom: 15px;
+}
+
+::placeholder {
+	color: lightgray;
+}
+
+header div.logo-search form button {
+	background: rgb(82, 202, 82);
+	border: none;
+	padding: 10px;
+	font-weight: 600;
+	font-size: 1.5rem;
+	color: white;
+	border-radius: 0 10px 10px 0;
+	cursor: pointer;
+}
+
+header div.logo-search form button:hover {
+	background: rgb(75, 184, 75);
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Link Swiper's CSS-->
+
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+		<!-- Fontawesome CDN link-->
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<!-- CSS -->
+
+		<link rel="stylesheet" href="../drinks-carousel/css/styles.css" />
+
+		<!-- Header CSS -->
+
+		<link rel="stylesheet" href="../drinks-carousel/css/header.css" />
+
+		<title>Pick 'em Drinks</title>
+	</head>
+	<body>
+		<!-- Search Bar -->
+
+		<header>
+			<div class="logo-search">
+				<img src="../drinks-carousel/assets/Logo.svg" alt="" />
+
+				<form id="form">
+					<div class="form-content">
+						<h4>Find your favorite drink recipes here!</h4>
+						<input type="text" name="" value="" placeholder="Mojito..." />
+						<button type="button" name="button">Search</button>
+					</div>
+				</form>
+			</div>
+		</header>
+
+		<!-- Carousel Slider -->
+
+		<section>
+			<div class="swiper mySwiper container">
+				<div class="swiper-wrapper content">
+					<!-- -->
+				</div>
+			</div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-pagination"></div>
+		</section>
+
+		<!-- Swiper JS -->
+
+		<script src="../drinks-carousel/js/main.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+		<!-- Initialize Swiper -->
+		<script>
+			var swiper = new Swiper('.mySwiper', {
+				slidesPerView: 3,
+				spaceBetween: 30,
+				slidesPerGroup: 3,
+				loop: true,
+				loopFillGroupWithBlank: true,
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true,
+				},
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+			});
+		</script>
+	</body>
+</html>
