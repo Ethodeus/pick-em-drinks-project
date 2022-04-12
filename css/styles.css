@@ -10,9 +10,10 @@
 }
 
 .swiper {
-	width: 1440px;
+	width: 75%;
 	padding: 40px;
 	border-radius: 20px;
+	font-family: 'Cooper', 'Times New Roman', Times, serif;
 }
 
 body {
