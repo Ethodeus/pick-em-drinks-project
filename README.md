@@ -30,6 +30,5 @@ divs located inside a this basic carousel I found on [swiper.js](https://swiperj
 
 ## Lessons Learned:
 
-Learned how to populate divs with the innerHTML element property. Although it is not considered best practice, it helped me understand the basics of this concept, 
-and will be looking for alternative ways to do that with future projects. 
+Learned how to populate divs with the ```innerHTML``` element property. Although it is not considered best practice, it helped me understand the basics of this concept, and will be looking for alternative ways to do that with future projects. 
 
