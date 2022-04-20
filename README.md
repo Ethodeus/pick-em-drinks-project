@@ -10,8 +10,7 @@
 
 ## How It's Made:
 
-This was my first attempt working with APIs, decided to add some styling and interaction to the cards that were created through the API request by populating 
-divs located inside a this basic carousel I found on [swiper.js](https://swiperjs.com/).
+This was my first attempt working with APIs. I decided to add some styling and interaction to the cards that were created through the API request by populating divs located inside of this basic carousel I found on [swiper.js](https://swiperjs.com/).
 
 
 
